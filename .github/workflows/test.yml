@@ -35,5 +35,8 @@ jobs:
         cd 1_app
         npm install
 
+    - name: Grant execute permission to the script
+      run: chmod +x ./scripts/run-integration.sh
+
     - name: Run integration tests
       run: cd 1_app && npm run test:integration
