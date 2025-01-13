@@ -36,7 +36,7 @@ jobs:
         npm install
 
     - name: List files in the repository
-      run: ls -R
+      run: ls -l
 
     - name: Grant execute permission to the script
       run: chmod +x ./scripts/run-integration.sh
