@@ -39,7 +39,7 @@ jobs:
       run: ls -l ./1_app/scripts
 
     - name: Grant execute permission to the script
-      run: chmod +x ./scripts/run-integration.sh
+      run: chmod +x ./1_app/scripts/run-integration.sh
 
     - name: Run integration tests
       run: cd 1_app && npm run test:integration
