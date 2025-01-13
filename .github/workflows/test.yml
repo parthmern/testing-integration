@@ -36,4 +36,4 @@ jobs:
         npm install
 
     - name: Run integration tests
-      run: cd 1-integration-test && npm run test:integration
+      run: cd 1_app && npm run test:integration
